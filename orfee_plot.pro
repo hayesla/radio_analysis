@@ -35,7 +35,7 @@ xrange='2014-apr-18 '+[time_start,time_end],/xs,$
 /ys,ytitle='Frequency [MHz]',/notitle
 
 
-spectro_plot,sigrange(orfee_1),time_b1,reverse(orfee_axis.freq_b1),yrange=yrange,/ys,/xs,/notitle,/noerase,/over,charsize=1.2,timerange='2015-mar-12 '+[time_start,time_end],/ylog
+spectro_plot,sigrange(orfee_1),time_b1,reverse(orfee_axis.freq_b1),yrange=yrange,/ys,/xs,/notitle,/noerase,/over,charsize=1.2,timerange='2014-apr-18 '+[time_start,time_end],/ylog
 spectro_plot,sigrange(orfee_2),time_b2,reverse(orfee_axis.freq_b2),yrange=yrange,/ys,/xs,/notitle,/noerase,/over,charsize=1.2,timerange='2015-mar-12 '+[time_start,time_end],/ylog
 spectro_plot,sigrange(orfee_3),time_b3,reverse(orfee_axis.freq_b3),yrange=yrange,/ys,/xs,/notitle,/noerase,/over,charsize=1.2,timerange='2015-mar-12 '+[time_start,time_end],/ylog
 spectro_plot,sigrange(orfee_4),time_b4,reverse(orfee_axis.freq_b4),yrange=yrange,/ys,/xs,/notitle,/noerase,/over,charsize=1.2,timerange='2015-mar-12 '+[time_start,time_end],/ylog
